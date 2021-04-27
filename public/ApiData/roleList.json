@@ -1,0 +1,56 @@
+// 角色列表
+{
+  "data": [
+    {
+      "createTime": 1526550421000,
+      "createUserId": null,
+      "desc": null,
+      "domainId": 1,
+      "epId": null,
+      "epName": null,
+      "id": 3,
+      "identifier": "common_role_storeKeeper",
+      "level": 200,
+      "name": "店长",
+      "platformDTO": null,
+      "platformId": 4,
+      "status": 1,
+      "type": 1,
+      "updateTime": 1526550419000,
+    },
+    {
+      "createTime": 1526550421000,
+      "createUserId": null,
+      "desc": null,
+      "domainId": 1,
+      "epId": null,
+      "epName": null,
+      "id": 4,
+      "identifier": "common_role_clerk",
+      "level": 200,
+      "name": "普通员工",
+      "platformDTO": null,
+      "platformId": 4,
+      "status": 1,
+      "type": 1,
+      "updateTime": 1526550441000
+    },
+    {
+      "createTime": 1526550421000,
+      "createUserId": null,
+      "desc": null,
+      "domainId": 1,
+      "epId": null,
+      "epName": null,
+      "id": 9,
+      "identifier": "common_role_sales",
+      "level": 200,
+      "name": "导购员",
+      "platformDTO": null,
+      "platformId": 4,
+      "status": 1,
+      "type": 1,
+      "updateTime": 1553776249000
+    }
+  ]
+}

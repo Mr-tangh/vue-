@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "hasGuideRule": false,
+      "id": 6599,
+      "maintainMemberNumber": null,
+      "name": "普通员工1",
+      "organizationType": 2,
+      "password": null,
+      "perUserId": 7450,
+      "phone": "15744444444"
+    },
+    {
+      "id": 6487,
+      "maintainMemberNumber": null,
+      "name": "测试002",
+      "organizationType": 2,
+      "password": null,
+      "perUserId": 7326,
+      "phone": "13209899098"
+    },
+    {
+      "id": 2425,
+      "maintainMemberNumber": null,
+      "name": "张起灵",
+      "organizationType": 2,
+      "password": null,
+      "perUserId": 3172,
+      "phone": "13850697089"
+    },
+    {
+      "id": 2401,
+      "maintainMemberNumber": null,
+      "name": "13850691234",
+      "organizationType": 2,
+      "password": null,
+      "perUserId": 3148,
+      "phone": "13850691234"
+    }
+  ],
+  "pageNo": 1,
+  "pageSize": 10,
+  "success": true,
+  "totalCount": 35
+}
