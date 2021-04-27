@@ -10,6 +10,11 @@ export default {
   name: 'App',
   components: {
     tableList
+  },
+  data () {
+    return {
+      
+    }
   }
 }
 </script>
