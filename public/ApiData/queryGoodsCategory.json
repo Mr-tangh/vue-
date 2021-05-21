@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "appFrontendCategory": "[111,112]",
+      "appFrontendCategoryNames": "你绝对想不到的分类,对喽！这个分类666",
+      "appId": null,
+      "id": 5004,
+      "isLeaf": 0,
+      "type": 1,
+      "category": "服饰鞋包",
+      "childrenCategory": [
+        {
+          "appFrontendCategory": null,
+          "appFrontendCategoryNames": null,
+          "appId": null,
+          "category": "男装",
+          "id": 5004027,
+          "isLeaf": 0,
+          "parentId": 5004,
+          "type": 1,
+          "childrenCategory": [
+            {
+              "appFrontendCategory": [113,114],
+              "appFrontendCategoryNames": "大哥分类,二哥分类",
+              "appId": null,
+              "category": "男裤",
+              "id": 5004027258,
+              "isLeaf": 1,
+              "parentId": 5004027,
+              "type": 1,
+              "childrenCategory": []
+            },
+            {
+              "appFrontendCategory": null,
+              "appFrontendCategoryNames": "",
+              "appId": null,
+              "category": "男外套",
+              "id": 5004027259,
+              "isLeaf": 1,
+              "parentId": 5004027,
+              "type": 1,
+              "childrenCategory": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "appFrontendCategory": "[108]",
+      "appFrontendCategoryNames": "无线耳机系列",
+      "appId": null,
+      "id": 5008068832,
+      "isLeaf": 0,
+      "type": 1,
+      "category": "213213",
+      "childrenCategory": []
+    },
+    {
+      "appFrontendCategory": "",
+      "appFrontendCategoryNames": "",
+      "appId": null,
+      "id": 5008068835,
+      "isLeaf": 0,
+      "type": 1,
+      "category": "化妆品",
+      "childrenCategory": []
+    }
+  ],
+  "pageNo": 1,
+  "pageSize": 10,
+  "success": true,
+  "totalCount": 35,
+  "name": "商品分类"
+}

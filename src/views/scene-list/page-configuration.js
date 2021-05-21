@@ -1,6 +1,5 @@
 
-
-// import http from '@/dss-wechat3rd/src/api/retail/goodsMgr/serviceCategory'
+import httpRequest from '@src/api/index.js'
 const sourceList = [
   {
     value: 0,
@@ -191,38 +190,38 @@ export function searchList () {
       label: '场景分类',
       type: 'w-scascader',
       prop: 'serviceCategoryId',
-      // cascaderProps: {
-      //   lazy: true,
-			// 	checkStrictly: false,
-			// 	lazyLoad (node, resolve) {
-			// 		const params = {
-			// 			parentId: !node.root ? node.data.value : null,
-			// 			categoryType: 4
-			// 		}
-			// 		if (node.isLeaf)
-			// 		{
-			// 			resolve()
-			// 		}
-			// 		http.selectPlatformCategoryList(params).then(res => {
-			// 			if (res.data)
-			// 			{
-			// 				const nodes = res.data.map((item) => {
-			// 					return {
-			// 						label: item.categoryName,
-			// 						leaf: !node.root,
-			// 						value: item.id
-			// 					}
-			// 				})
-			// 				resolve(nodes)
-			// 			} else
-			// 			{
-			// 				this.serviceCategoryId = [node.data.value]
-			// 				node.data.leaf = true
-			// 				resolve()
-			// 			}
-			// 		})
-			// 	}
-      // },
+      cascaderProps: {
+        lazy: true,
+				checkStrictly: false,
+				lazyLoad (node, resolve) {
+					const params = {
+						parentId: !node.root ? node.data.value : null,
+						categoryType: 4
+					}
+					if (node.isLeaf)
+					{
+						resolve()
+					}
+					httpRequest.SceneManagementModule.getSelectSceneCategoryList(params).then(res => {
+						if (res.data)
+						{
+							const nodes = res.data.map((item) => {
+								return {
+									label: item.categoryName,
+									leaf: !node.root,
+									value: item.id
+								}
+							})
+							resolve(nodes)
+						} else
+						{
+							this.serviceCategoryId = [node.data.value]
+							node.data.leaf = true
+							resolve()
+						}
+					})
+				}
+      },
       style: {
         width: '160px'
       }

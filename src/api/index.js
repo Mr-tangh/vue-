@@ -20,6 +20,30 @@ export default {
         params,
         action: '场景管理-员工列表',
       });
+    },
+    
+    getSelectSceneCategoryList (params) {
+      return services.get('/public/ApiData/selectSceneCategoryList.json', {
+        params,
+        action: '场景管理-场景分类',
+      });
+    }
+    
+  },
+
+  GoodsModules: {
+    getGoodsCategory (params) {
+      return services.get('/public/ApiData/queryGoodsCategory.json', {
+        params,
+        action: '商品分类',
+      });
+    },
+
+    getGoodsList (params) {
+      return services.get('/public/ApiData/queryGoodsList.json',{
+        params, 
+        action: '商品列表',
+      });
     }
   }
 }

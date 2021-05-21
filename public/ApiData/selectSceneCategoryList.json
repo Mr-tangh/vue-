@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "categoryName": "场景预订",
+      "categoryType": 4,
+      "createTime": 1620736151000,
+      "epId": 2920,
+      "ext": null,
+      "id": 1000000228,
+      "parentId": 0,
+    },
+    {
+      "categoryName": "场景分类--1",
+      "categoryType": 4,
+      "createTime": 1620724195000,
+      "epId": 2920,
+      "ext": null,
+      "id": 1000000224,
+      "parentId": 0
+    },
+    {
+      "categoryName": "场景分类-品牌1类",
+      "categoryType": 4,
+      "createTime": 1620718212000,
+      "epId": 2920,
+      "ext": null,
+      "id": 1000000223,
+      "parentId": 0
+    }
+  ],
+  "pageNo": 1,
+  "pageSize": 10,
+  "success": true,
+  "totalCount": 35,
+  "name": "场景分类"
+}

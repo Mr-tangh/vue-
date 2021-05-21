@@ -17,6 +17,7 @@
             :value="selfForm[item.prop]"
             @input="handleInput($event, item.prop)"
             @select="handleSelect($event, item.prop)"
+            :cascader-options='item.cascaderOptions'
             :cascader-props='item.cascaderProps'
             :placeholder="item.placeholder || `请输入${item.label}`"
           ></component>

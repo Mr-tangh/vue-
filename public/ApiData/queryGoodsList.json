@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "categoryId": 5008068555,
+      "id": 6599,
+      "name": "好莱坞权益-测试卡",
+      "salePrice": 20
+    },
+    {
+      "categoryId": 5008068556,
+      "id": 71346,
+      "name": "代发虚拟商品",
+      "salePrice": 204
+    },
+    {
+      "categoryId": 5008068548,
+      "id": 68900,
+      "name": "虚拟lz女装专属VIP卡",
+      "salePrice": 245
+    },
+    {
+      "categoryId": 5008068541,
+      "id": 68901,
+      "name": "NPM联名qq表情SVIP卡",
+      "salePrice": 354
+    }
+  ],
+  "pageNo": 1,
+  "pageSize": 10,
+  "success": true,
+  "totalCount": 35,
+  "name": "商品列表"
+}

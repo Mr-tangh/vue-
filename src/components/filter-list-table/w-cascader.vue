@@ -3,6 +3,7 @@
     <el-cascader
       @change="cascaderChange"
       :props="innerCascaderProps"
+      :options='cascaderOptions'
       v-model="innerValue"
       :value="innerValue"
       ref="cascaderAddr"
@@ -21,7 +22,9 @@ export default {
     cascaderProps: {
       type: Object
     },
-
+    cascaderOptions: {
+      type: Array
+    }
   },
   data () {
     return {
